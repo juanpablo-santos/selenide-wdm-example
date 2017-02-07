@@ -10,8 +10,8 @@ import org.openqa.selenium.WebDriver;
 
 public class WebDriverManagerRule implements TestRule {
 	
-	private final BrowserManagerEnum browser;
-	private WebDriver driver = null;
+	protected final BrowserManagerEnum browser;
+	protected WebDriver driver = null;
 	
 	/**
 	 * Rule constructor.
